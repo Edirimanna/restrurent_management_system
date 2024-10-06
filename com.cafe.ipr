@@ -441,16 +441,16 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.sun.activation:jakarta.activation:1.2.1" type="java-imported" external-system-id="Maven">
-      <properties groupId="com.sun.activation" artifactId="jakarta.activation" version="1.2.1" />
+    <library name="Maven: com.sun.activation:jakarta.activation:2.0.1" type="java-imported" external-system-id="Maven">
+      <properties groupId="com.sun.activation" artifactId="jakarta.activation" version="2.0.1" />
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.sun.istack:istack-commons-runtime:4.1.2" type="java-imported" external-system-id="Maven">
@@ -465,16 +465,16 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.sun.mail:jakarta.mail:1.6.7" type="java-imported" external-system-id="Maven">
-      <properties groupId="com.sun.mail" artifactId="jakarta.mail" version="1.6.7" />
+    <library name="Maven: com.sun.mail:jakarta.mail:2.0.1" type="java-imported" external-system-id="Maven">
+      <properties groupId="com.sun.mail" artifactId="jakarta.mail" version="2.0.1" />
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" type="java-imported" external-system-id="Maven">
@@ -631,6 +631,30 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.activation:javax.activation-api:1.2.0" type="java-imported" external-system-id="Maven">
+      <properties groupId="javax.activation" artifactId="javax.activation-api" version="1.2.0" />
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.xml.bind:jaxb-api:2.3.1" type="java-imported" external-system-id="Maven">
+      <properties groupId="javax.xml.bind" artifactId="jaxb-api" version="2.3.1" />
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: net.bytebuddy:byte-buddy-agent:1.14.19" type="java-imported" external-system-id="Maven">
@@ -859,6 +883,18 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.eclipse.angus:jakarta.mail:2.0.3" type="java-imported" external-system-id="Maven">
+      <properties groupId="org.eclipse.angus" artifactId="jakarta.mail" version="2.0.3" />
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/angus/jakarta.mail/2.0.3/jakarta.mail-2.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/angus/jakarta.mail/2.0.3/jakarta.mail-2.0.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/angus/jakarta.mail/2.0.3/jakarta.mail-2.0.3-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.glassfish.jaxb:jaxb-core:4.0.5" type="java-imported" external-system-id="Maven">
@@ -1197,16 +1233,16 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-logging/3.3.4/spring-boot-starter-logging-3.3.4-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.boot:spring-boot-starter-mail:2.5.6" type="java-imported" external-system-id="Maven">
-      <properties groupId="org.springframework.boot" artifactId="spring-boot-starter-mail" version="2.5.6" />
+    <library name="Maven: org.springframework.boot:spring-boot-starter-mail:3.3.4" type="java-imported" external-system-id="Maven">
+      <properties groupId="org.springframework.boot" artifactId="spring-boot-starter-mail" version="3.3.4" />
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-mail/2.5.6/spring-boot-starter-mail-2.5.6.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-mail/3.3.4/spring-boot-starter-mail-3.3.4.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-mail/2.5.6/spring-boot-starter-mail-2.5.6-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-mail/3.3.4/spring-boot-starter-mail-3.3.4-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-mail/2.5.6/spring-boot-starter-mail-2.5.6-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-mail/3.3.4/spring-boot-starter-mail-3.3.4-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.boot:spring-boot-starter-security:3.3.4" type="java-imported" external-system-id="Maven">

@@ -31,7 +31,7 @@ public class JwtFilter extends OncePerRequestFilter {
     @Override
     protected void doFilterInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, FilterChain filterChain)
             throws ServletException, IOException {
-        if(httpServletRequest.getServletPath().matches("/user/login|/user/forgotpassword|/user/signup")){
+        if(httpServletRequest.getServletPath().matches("/user/forgotpassword|/user/signup|/user/login")){
             filterChain.doFilter(httpServletRequest,httpServletResponse);
         }
         else{
@@ -45,7 +45,7 @@ public class JwtFilter extends OncePerRequestFilter {
 
             }
             if(userName != null && SecurityContextHolder.getContext().getAuthentication() == null){
-                UserDetails userDetails = service.loadUserByUsername(token);
+                UserDetails userDetails = service.loadUserByUsername(userName);
                 if(jwtUtil.validateToken(token,userDetails)){
                     UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken =
                             new UsernamePasswordAuthenticationToken(userDetails,null,userDetails.getAuthorities());
