@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be99eb86-29ee-4447-bdd6-1b3785887a1c" name="Changes" comment="Add JWT authenticate code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/utils/EmailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/wrapper/UserWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.cafe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com.cafe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.cafe.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/com.cafe.ipr" afterDir="false" />
+    <list default="true" id="be99eb86-29ee-4447-bdd6-1b3785887a1c" name="Changes" comment="fixed email issue">
       <change beforePath="$PROJECT_DIR$/com.cafe.iws" beforeDir="false" afterPath="$PROJECT_DIR$/com.cafe.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/JWT/CustomerUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/JWT/CustomerUserDetailsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/JWT/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/JWT/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/JWT/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/JWT/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/constents/CafeConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/constents/CafeConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/rest/UserRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/rest/UserRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/UserRestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/UserRestImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/utils/EmailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/utils/EmailUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
@@ -439,7 +431,21 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1728152321356</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Add jwt login in to the application">
+      <option name="closed" value="true" />
+      <created>1728237371542</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1728237371542</updated>
+    </task>
+    <task id="LOCAL−00006" summary="config changes">
+      <option name="closed" value="true" />
+      <created>1728237472599</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1728237472599</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -513,7 +519,10 @@
     <MESSAGE value="Add the basic class and create a database structure" />
     <MESSAGE value="Complete backend signup restapi" />
     <MESSAGE value="Add JWT authenticate code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JWT authenticate code" />
+    <MESSAGE value="Add jwt login in to the application" />
+    <MESSAGE value="config changes" />
+    <MESSAGE value="fixed email issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed email issue" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -572,12 +581,12 @@
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java</url>
-          <line>48</line>
+          <line>49</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java</url>
-          <line>96</line>
+          <line>97</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -597,17 +606,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java</url>
-          <line>104</line>
+          <line>105</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java</url>
-          <line>122</line>
+          <line>123</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java</url>
-          <line>126</line>
+          <line>127</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -617,23 +626,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java</url>
-          <line>139</line>
+          <line>140</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java</url>
-          <line>162</line>
+          <line>163</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cafe/JWT/JwtFilter.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/cafe/restImpl/UserRestImpl.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cafe/JWT/JwtFilter.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.IllegalStateException" package="java.lang" />
