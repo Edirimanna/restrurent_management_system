@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be99eb86-29ee-4447-bdd6-1b3785887a1c" name="Changes" comment="Start to implement category part">
+    <list default="true" id="be99eb86-29ee-4447-bdd6-1b3785887a1c" name="Changes" comment="Complete creating All category Api">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/rest/ProductRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/ProductIRestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/wrapper/ProductWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.cafe.iws" beforeDir="false" afterPath="$PROJECT_DIR$/com.cafe.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/model/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/rest/CategoryRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/rest/CategoryRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/CategoryRestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/CategoryRestImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/CategoryServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -277,23 +283,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CafeManagemenetSystemApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CafeManagementSystemApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.com.cafe [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.com.cafe [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.com.cafe [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.com.cafe [idea:idea].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.com.cafe [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Sprint__03&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/My Work/Projects/restrurent_management_system&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CafeManagemenetSystemApplication.executor": "Run",
+    "Application.CafeManagementSystemApplication.executor": "Debug",
+    "Maven.com.cafe [clean,install].executor": "Run",
+    "Maven.com.cafe [clean].executor": "Run",
+    "Maven.com.cafe [deploy].executor": "Run",
+    "Maven.com.cafe [idea:idea].executor": "Run",
+    "Maven.com.cafe [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Sprint__03",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/My Work/Projects/restrurent_management_system",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn idea:idea" />
@@ -451,7 +457,14 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1728499005365</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Complete creating All category Api">
+      <option name="closed" value="true" />
+      <created>1728538410300</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1728538410300</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -529,7 +542,8 @@
     <MESSAGE value="config changes" />
     <MESSAGE value="fixed email issue" />
     <MESSAGE value="Start to implement category part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start to implement category part" />
+    <MESSAGE value="Complete creating All category Api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete creating All category Api" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -620,6 +634,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/UserServiceImpl.java</url>
           <line>213</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/ProductServiceImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/ProductServiceImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/ProductServiceImpl.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/ProductServiceImpl.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.IllegalStateException" package="java.lang" />

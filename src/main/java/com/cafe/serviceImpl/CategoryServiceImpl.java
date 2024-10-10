@@ -96,7 +96,6 @@ public class CategoryServiceImpl implements CategoryService {
 
             }else {
                 return CafeUtils.getResponseEntity(CafeConstants.UNAUTHORIZED_ACCESS, HttpStatus.UNAUTHORIZED);
-
             }
         } catch (Exception e) {
             e.printStackTrace();
