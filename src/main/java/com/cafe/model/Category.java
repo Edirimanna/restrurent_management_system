@@ -12,7 +12,6 @@ import java.io.Serializable;
 
 @Data
 @Entity
-
 @DynamicInsert
 @DynamicUpdate
 @Table(name = "category")
