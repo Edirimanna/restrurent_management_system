@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be99eb86-29ee-4447-bdd6-1b3785887a1c" name="Changes" comment="fixed email issue">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/dao/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/rest/CategoryRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/CategoryRestImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.cafe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com.cafe.iml" afterDir="false" />
+    <list default="true" id="be99eb86-29ee-4447-bdd6-1b3785887a1c" name="Changes" comment="Start to implement category part">
       <change beforePath="$PROJECT_DIR$/com.cafe.iws" beforeDir="false" afterPath="$PROJECT_DIR$/com.cafe.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/rest/CategoryRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/rest/CategoryRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/CategoryRestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/CategoryRestImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/CategoryServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -447,7 +444,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1728237472599</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Start to implement category part">
+      <option name="closed" value="true" />
+      <created>1728499005365</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1728499005365</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -524,7 +528,8 @@
     <MESSAGE value="Add jwt login in to the application" />
     <MESSAGE value="config changes" />
     <MESSAGE value="fixed email issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed email issue" />
+    <MESSAGE value="Start to implement category part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start to implement category part" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
