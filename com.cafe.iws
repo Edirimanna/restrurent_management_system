@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be99eb86-29ee-4447-bdd6-1b3785887a1c" name="Changes" comment="All product API completed.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/dao/BillDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/model/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/rest/BillRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/BillRestImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/service/BillService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/BillServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.cafe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com.cafe.iml" afterDir="false" />
+    <list default="true" id="be99eb86-29ee-4447-bdd6-1b3785887a1c" name="Changes" comment="Complete bill generating part">
       <change beforePath="$PROJECT_DIR$/com.cafe.iws" beforeDir="false" afterPath="$PROJECT_DIR$/com.cafe.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/constents/CafeConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/constents/CafeConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/rest/CategoryRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/rest/CategoryRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/rest/UserRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/rest/UserRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/dao/BillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/dao/BillDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/model/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/rest/BillRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/rest/BillRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/BillRestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/BillRestImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/service/BillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/BillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/BillServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/utils/CafeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/utils/CafeUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -286,23 +280,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CafeManagemenetSystemApplication.executor": "Run",
-    "Application.CafeManagementSystemApplication.executor": "Debug",
-    "Maven.com.cafe [clean,install].executor": "Run",
-    "Maven.com.cafe [clean].executor": "Run",
-    "Maven.com.cafe [deploy].executor": "Run",
-    "Maven.com.cafe [idea:idea].executor": "Run",
-    "Maven.com.cafe [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Sprint__03",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/My Work/Projects/restrurent_management_system",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CafeManagemenetSystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CafeManagementSystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.com.cafe [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.com.cafe [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.com.cafe [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.com.cafe [idea:idea].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.com.cafe [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Sprint__03&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/My Work/Projects/restrurent_management_system&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn idea:idea" />
@@ -481,7 +475,14 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1728566061624</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Complete bill generating part">
+      <option name="closed" value="true" />
+      <created>1728583041217</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1728583041217</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -562,7 +563,8 @@
     <MESSAGE value="Complete creating All category Api" />
     <MESSAGE value="Complete creating All product Api" />
     <MESSAGE value="All product API completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="All product API completed." />
+    <MESSAGE value="Complete bill generating part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete bill generating part" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -681,13 +683,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/restImpl/BillRestImpl.java</url>
-          <line>22</line>
+          <line>25</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/BillServiceImpl.java</url>
-          <line>37</line>
+          <line>41</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/BillServiceImpl.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.IllegalStateException" package="java.lang" />
