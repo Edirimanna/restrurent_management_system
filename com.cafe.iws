@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be99eb86-29ee-4447-bdd6-1b3785887a1c" name="Changes" comment="Complete bill generating part">
+    <list default="true" id="be99eb86-29ee-4447-bdd6-1b3785887a1c" name="Changes" comment="Complete remaining bill generate part">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/rest/DashboardRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/DashboardRestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/service/DashboardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/DashboardServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.cafe.iws" beforeDir="false" afterPath="$PROJECT_DIR$/com.cafe.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/dao/BillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/dao/BillDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/model/Bill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/rest/BillRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/rest/BillRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/BillRestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/restImpl/BillRestImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/service/BillService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/BillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/BillServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cafe/utils/CafeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cafe/utils/CafeUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,8 +184,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -482,7 +483,14 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1728583041217</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="Complete remaining bill generate part">
+      <option name="closed" value="true" />
+      <created>1728749028444</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1728749028444</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -564,7 +572,8 @@
     <MESSAGE value="Complete creating All product Api" />
     <MESSAGE value="All product API completed." />
     <MESSAGE value="Complete bill generating part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete bill generating part" />
+    <MESSAGE value="Complete remaining bill generate part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete remaining bill generate part" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -688,12 +697,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/BillServiceImpl.java</url>
-          <line>41</line>
+          <line>42</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cafe/serviceImpl/BillServiceImpl.java</url>
-          <line>175</line>
+          <line>176</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <breakpoint type="java-exception">
